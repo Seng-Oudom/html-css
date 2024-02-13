@@ -23,7 +23,7 @@
 }
 
 .animate-color-change {
-  animation: colorChange 1s infinite;
+  /* animation: colorChange 1s infinite; */
 }
 
 .flex {
