@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #2982ca;
+  } /* Blue */
+  25% {
+    background-color: #38a169;
+  } /* Green */
+  50% {
+    background-color: #e53e3e;
+  } /* Red */
+  75% {
+    background-color: #d69e2e;
+  } /* Yellow */
+  100% {
+    background-color: #3490dc;
+  } /* Back to Blue */
+}
+
+.animate-color-change {
+  animation: colorChange 1s infinite;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.min-h-screen {
+  min-height: 85rem;
+}
